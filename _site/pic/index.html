@@ -142,6 +142,7 @@
 				transition: Reveal.getQueryHash().transition || 'default'
 			});
 
+			//下面的代码是进行懒加载：当滑入某个界面的时候，才去加载相应的图片。
 			Reveal.addEventListener( 'slidechanged', function( event ) {
 			    imgSetSrc(event.indexh,event.indexv);
 			} );

@@ -1,5 +1,5 @@
 (function(){
-	var development=true;
+	var development=false;
 	var plugins=[];
 	var map=[];
 
