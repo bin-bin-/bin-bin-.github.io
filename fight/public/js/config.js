@@ -1,3 +1,6 @@
+//config.js 只做了一件事，就是是否选择加载压缩后的代码
+
+
 (function(){
 	var development=false;
 	var plugins=[];
